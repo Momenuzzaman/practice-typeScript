@@ -1,7 +1,17 @@
 "use strict";
-var myMoney = 50;
+let myMoney = 50;
 myMoney = 20;
 myMoney = 30;
-var club = "Real Madrid";
-var isFamouse = false;
-var famous;
+let club = "Real Madrid";
+const isFamouse = false;
+let famous;
+function add(number1, number2) {
+    return number1 + number2;
+}
+;
+add(3, 4);
+function fullName(firstName, lastName) {
+    return firstName + " " + lastName;
+}
+;
+const user = fullName("Mr", "Been");
