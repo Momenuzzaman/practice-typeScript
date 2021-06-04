@@ -15,3 +15,8 @@ function fullName(firstName, lastName) {
 }
 ;
 const user = fullName("Mr", "Been");
+const multiply = (x, y) => x * y;
+console.log(multiply(10, 5));
+let multiply2;
+multiply2 = (x, y) => x * y;
+console.log(multiply2(4, 4));

@@ -18,3 +18,10 @@ function fullName(firstName: string, lastName: string):string{
 };
 
 const user = fullName("Mr", "Been");
+
+const multiply = (x:number, y:number):number => x*y;
+console.log(multiply(10,5)) ;
+
+let multiply2: (x:number, y:number )=>number;
+multiply2 = (x ,y ) =>x*y;
+console.log(multiply2(4,4));
