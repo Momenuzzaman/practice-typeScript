@@ -43,3 +43,16 @@ player = {
     club: "barsa",
     salary: 2000,
 };
+const messy = {
+    name: "Mwssy",
+    club: "Barsa",
+    salary: 40000,
+    wife: "Some one",
+    isPlaying: true
+};
+const ronaldo = {
+    name: "Mwssy",
+    club: "Barsa",
+    salary: 40000,
+    isPlaying: false
+};

@@ -60,4 +60,28 @@ let player:{
 player={
     club: "barsa",
     salary: 2000,
+};
+
+interface Player {
+    name : string,
+    club : string,
+    salary:number,
+    wife?: string,
+    isPlaying: boolean
 }
+
+const messy : Player ={
+    name: "Mwssy",
+    club: "Barsa",
+    salary : 40000,
+    wife: "Some one",
+    isPlaying: true
+}
+
+const ronaldo : Player ={
+    name: "Mwssy",
+    club: "Barsa",
+    salary : 40000,
+    isPlaying: false
+}
+
