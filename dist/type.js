@@ -56,3 +56,16 @@ const ronaldo = {
     salary: 40000,
     isPlaying: false
 };
+class Person {
+    constructor(name, father) {
+        this.name = name;
+        this._person = name;
+        this.fatherName = father;
+    }
+    getName() {
+        return this.name + " " + this._person;
+    }
+}
+const sam = new Person("Salman", "David");
+console.log(sam.name, sam.fatherName);
+const samName = sam.getName();

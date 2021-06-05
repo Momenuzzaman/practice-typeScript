@@ -85,3 +85,19 @@ const ronaldo : Player ={
     isPlaying: false
 }
 
+class Person {
+    name:string;
+    private _person :string;
+    readonly fatherName:string;
+    constructor(name:string,father:string){
+        this.name = name;
+        this._person = name;
+        this.fatherName = father;
+    }
+    getName():string{
+        return this.name+ " "+ this._person;
+    }
+}
+const sam  = new Person ("Salman","David")
+console.log(sam.name,sam.fatherName);
+const samName:string =sam.getName();
